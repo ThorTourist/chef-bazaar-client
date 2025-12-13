@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/Navbar";
-import Hero from "../../Components/Hero/Hero";
+import Navbar from "../Components/Navbar/Navbar";
+import Hero from "../Components/Hero/Hero";
 import { Outlet } from "react-router";
-import Footer from "../../Components/Footer/Footer";
-import NewsTicker from "../../Pages/NewsTricker";
-import TopHeading from "../../Pages/TopHeading";
+import Footer from "../Components/Footer/Footer";
+import NewsTicker from "../Pages/NewsTricker";
+import TopHeading from "../Pages/TopHeading";
 
 const RootLayout = () => {
   return (
